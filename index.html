@@ -10,6 +10,7 @@
     <header>
         <h1 id="main-title">Data Manipulation Project</h1>
         <p id="subtitle">Working with songs, numbers and food</p>
+        <button id="theme-toggle">Toggle Dark Mode</button>
     </header>
 
     <main>
@@ -18,9 +19,11 @@
             <div id="song-box" class="data-box">
                 <p>Current song: <span id="current-song">-</span></p>
                 <p>Song count: <span id="song-count">0</span></p>
+                <div id="song-message"></div>
             </div>
             <button id="change-song-btn">Change Song</button>
             <button id="add-song-btn">Add Random Song</button>
+            <button id="toggle-song-box">Toggle Song Box</button>
         </section>
 
         <section class="data-section">
@@ -28,9 +31,11 @@
             <div id="number-box" class="data-box">
                 <p>Current number: <span id="current-number">0</span></p>
                 <p>Number history: <span id="number-history"></span></p>
+                <p id="number-status">Status: Neutral</p>
             </div>
             <button id="increment-btn">Increment</button>
             <button id="decrement-btn">Decrement</button>
+            <button id="reset-number-btn">Reset</button>
         </section>
 
         <section class="data-section">
@@ -38,9 +43,11 @@
             <div id="food-box" class="data-box">
                 <p>Favorite food: <span id="favorite-food">-</span></p>
                 <ul id="food-list"></ul>
+                <div id="food-message"></div>
             </div>
             <button id="change-food-btn">Change Food</button>
             <button id="add-food-btn">Add Random Food</button>
+            <button id="clear-food-btn">Clear Food List</button>
         </section>
     </main>
 
